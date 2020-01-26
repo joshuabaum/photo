@@ -1,1 +1,1 @@
-# baum-photo
+# Joshua Baum's Photography Website.
