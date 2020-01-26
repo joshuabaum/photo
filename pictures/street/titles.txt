@@ -1,0 +1,14 @@
+boy_big.jpg
+camel_big.jpg
+cotel_big.jpg
+eiffel_big.jpg
+hat_big.jpg
+louvre_big.jpg
+march_big.jpg
+nismo_big.jpg
+R34_big.jpg
+river_big.jpg
+shibuya_big.jpg
+smartphone_big.jpg
+umbrella_big.jpg
+yellow_vest_big.jpg
