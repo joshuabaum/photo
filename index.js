@@ -10,6 +10,10 @@ function street(){
 	window.location.href = 'street.html';
 }
 
+function fav(){
+	window.location.href = 'favorites.html';
+}
+
 function series(){
 	window.location.href = 'series.html';
 }
