@@ -12,6 +12,7 @@ html, body{
 
 /* linkes to navigate to different pages*/
 .pages {
+	background: rgba(184, 174, 174, 0.164);
     padding: 0;
     padding-top: calc(2%); 
     padding-bottom: calc(2%);
@@ -33,7 +34,7 @@ html, body{
 
 .nav-bar li{
 	text-align: center;
-	width: calc(33%);
+	width: calc(33.33%);
 	margin: 0em;
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
