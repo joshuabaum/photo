@@ -44,7 +44,7 @@ html, body{
  
 .nav-bar li:hover { 
 	cursor: crosshair;
-	transition: background 0.5s ease 0s;	
+	transition: background 1s ease 0s;	
 	background: rgb(74,70,76);
 	color: black;
 }
