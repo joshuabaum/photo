@@ -94,7 +94,8 @@ html, body{
     padding-right: calc(10%);
     margin: 0;
     height: calc(90%);
-    width: auto;
+	width: auto;
+	max-height: 110%; 
     text-align: center;
 	align-content: center;
 	object-fit: contain;
@@ -187,7 +188,7 @@ html, body{
 		margin: 0;
 		height: auto;
 		width: calc(80%);
-		object-fit: contain;
+		object-fit: contain; 
 	}
 
 	/*.img-tall{
