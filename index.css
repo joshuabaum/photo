@@ -96,11 +96,11 @@ html, body{
 
 @media screen and (max-width: 1600px) {
 	.header-text{
-		font-size:5vmax;
+		font-size:5vmin;
 	}
 
 	.nav-bar{
-		font-size: 2.25vmax;
+		font-size: 2.25vmin;
 	}
 
   }
