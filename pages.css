@@ -14,14 +14,12 @@ html, body{
 .pages {
 	background: rgba(184, 174, 174, 0.164);
     padding: 0;
-    padding-top: calc(2%); 
-    padding-bottom: calc(2%);
 	margin: 0px;
 	width: calc(100%);
-	height: calc(8%);
+	height: calc(10%);
 	white-space: nowrap;
 	text-align: center;
-	vertical-align: center;
+	display: flex;
 }
 
 .nav-bar{
@@ -29,7 +27,9 @@ html, body{
 	display: flex;
 	list-style-type: none;
 	text-align: center;
-	vertical-align: center;
+	width: calc(100%);
+	align-self: flex-end;
+	font-size:1.5vw;
 }
 
 .nav-bar li{
@@ -75,25 +75,37 @@ html, body{
 .photo-container-wide {
     padding-top: calc(5%);
     padding-bottom: calc(5%);
-    padding-left: calc(17.5%);
-    padding-right: calc(17.5%);
-    margin: 0;
-    height: calc(80%);
-    width: calc(65%);
-    text-align: center;
+    padding-left: calc(10%);
+	padding-right: calc(10%);
+	margin: 0;
+
+	max-width:100%;
+    height: auto;
+	width: calc(80%);
+
     align-content: center;
 }
 
 .photo-container-tall {
     padding-top: calc(5%);
     padding-bottom: calc(5%);
-    padding-left: calc(17.5%);
-    padding-right: calc(17.5%);
+    padding-left: calc(10%);
+    padding-right: calc(10%);
     margin: 0;
-    height: calc(95%);
-    width: calc(65%);
+    height: calc(90%);
+    width: auto;
     text-align: center;
     align-content: center;
+}
+
+.img-tall{
+	width: auto; 
+	height: calc(100%);
+}
+
+.img-wide{
+	width: calc(100%); 
+	height: auto;
 }
 
 /*idk what's below here*/
@@ -153,4 +165,28 @@ html, body{
     font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
 	color:white;
-}}
+}
+
+
+@media screen and (max-width: 760px) {
+	
+	.nav-bar{
+		font-size:2.25vmin;
+	}
+
+	.photo-container-tall {
+		padding-left: calc(10%);
+		padding-right: calc(10%);
+		margin: 0;
+		height: auto;
+		width: calc(80%);
+	}
+
+	.img-tall{
+		width: calc(100%);
+		height: auto;
+	}
+
+  }
+
+
