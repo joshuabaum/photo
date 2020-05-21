@@ -14,21 +14,21 @@ html, body{
 	width: calc(100%);
 	height: calc(20%);
 	white-space: nowrap;
-	vertical-align: top;
+	vertical-align: bottom;
 	text-align: center;
 	background-color:rgba(184, 174, 174, 0.164);
-
+	display: flex;
 }
 
 .header-text{
-	padding-top: calc(7%);
-	padding-bottom: calc(3%);
 	font-family: 'Lato', sans-serif;
-	display: inline-block;
 	margin: 0;
-	vertical-align: top;
+	/*display: table-cell;
+	vertical-align: bottom;*/
+	width: calc(100%);
+	font-size:3vw;
+	align-self: flex-end;	
 }
-
 
 
 .photo{
@@ -56,6 +56,7 @@ html, body{
 	list-style-type: none;
 	text-align: center;
 	vertical-align: center;
+	font-size: 1.5vw;
 }
 
 .nav-bar li{
@@ -93,3 +94,13 @@ html, body{
 }
 
 
+@media screen and (max-width: 900px) {
+	.header-text{
+		font-size:5vw;
+	}
+
+	.nav-bar{
+		font-size: 2.25vw;
+	}
+
+  }
