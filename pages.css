@@ -168,7 +168,7 @@ html, body{
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
 	
 	.nav-bar{
 		font-size:2.25vmin;
